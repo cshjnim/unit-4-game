@@ -7,7 +7,6 @@
     <!--Adding bootstrap and JQuery-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type= "text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type= "text/css" href= "assets/css/style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
 </head>
@@ -24,41 +23,51 @@
 
         <!--second box for instructions-->
         <div class="intro">
-            <h2></h2>
-            <p>You will be given a random number at the start of the game.</p>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-            <p>The value of each crystal is hidden from you until you click on it.</p>
-            <p>Each time when the game starts, the game will change the value of each crystal.</p>
+            <h2><b>Introduction</b></h2>
+            <br>
+            <ul>
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+                <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+                <li>The value of each crystal is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the value of each crystal.</li>
+            </ul>
         </div>
 
         <!--third box for random number to start-->
         <div class="randombox">
-            <h3>            </h3>
+            <h2>Number To Get:
+                <span id= "randomNumber"></span>
+            </h2>
         </div>
 
         <!--fourth box for showing scores-->
         <div class="scoretracker">
-            <h4>Wins: </h4>
-            <h4>Losses: </h4>
+            <h2>Wins:
+                <span id= "numberWins"></span>
+                </br>
+                Losses: 
+                <span id= "numberLosses"></span>
+            </h2>
         </div>
 
         <!--crystal images-->
         <div class="image">
-            <button class = >
-                <span clas = ></span>
-            </button>
+            <img src="assets/images/bluecrystal.gif" class= "gemImage" id="blue" alt= "Blue Gem">
+            <img src="assets/images/greencrystal.gif" class= "gemImage" id="green" alt= "Green Gem">
+            <img src="assets/images/redcrystal.gif" class= "gemImage" id="red" alt= "Red Gem">
+            <img src="assets/images/yellowcrystal.gif" class= "gemImage" id="yellow" alt= "Yello Gem">
         </div>
 
         <!--next section for score table-->
         <div class="results">
-            <h4>Your total score is : </h4>
-            <div>
-                
-            </div>
+            <h2>Your total score is:
+                <span id="finalTotal"></span>
+            </h2>
         </div>
     </div>
-    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script src="/assets/javascript/game.js">
     </script>
 
