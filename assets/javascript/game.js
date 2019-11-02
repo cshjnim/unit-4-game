@@ -44,4 +44,4 @@ $(document).ready(function(){
         $("#numberLosses").text(losses);
         reset()
     }
-}
+});

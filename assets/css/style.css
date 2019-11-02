@@ -1,18 +1,30 @@
 
-body{
-    background-image: url("/assets/images/background.png");
+body {
+    background-image: url("../images/background.png");
 }
 
 div {
-    background-color: white;
     margin: 10px;
-    width: 25%;
-	border: solid 2px antiquewhite;
+    width: 35%;
 	padding: 10px;
 }
 
+
+.intro,
+.randombox,
+.scoretracker,
+.image,
+.results {
+    background-color: white;
+    border: solid 2px antiquewhite;
+}
+
+.jumbotron {
+    padding: 5px;
+    background-color: rgba(196, 107, 5, 0.911);
+}
+
 h1, 
-h3, 
 span {
     font-weight: bold;
     text-align: center;
@@ -26,13 +38,17 @@ h2 {
     font-size: 20px;
 }
 
-ul {
-	list-style: disc inside;
+h3 {
+    font-size: 15px;
 }
 
-div.header, 
-div.image {
-    background-color: lightgrey;
+ul {
+    padding: 10px;
+}
+
+ol {
+    padding: 5px;
+    font-size: 15px;
 }
 
 div.header, 
@@ -40,14 +56,19 @@ div.intro {
     width: 50%;
 }
 
-.numberToMatch, .winsAndLosses {
+.randombox, .scoretracker {
     float: left;
     width: 15%;
-    height: 60px;
+    height: 80px;
+    line-height: 30px;
 }
 
-.userTotal {
-    width: 15%;
+.image {
+    background-color: lightgrey;
+}
+
+.results {
+    width: 20%;
     height: 60px;
 }
 
