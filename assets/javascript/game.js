@@ -45,3 +45,70 @@ $(document).ready(function(){
         reset()
     }
 });
+ 
+// for Jewel's click 
+$("#blue").on("click", function() {
+    userTotal = userTotal +blue;
+    console.log("New userTotal = " +userTotal);
+    $("#finalTotal").text(userTotal);
+
+    if (userTotal == random) {
+        wins();
+    }
+    else if (userTotal > random) {
+        losses();
+    }
+
+})
+$("#blue").on("click", function() {
+    userTotal = userTotal +blue;
+    console.log("New userTotal = " +userTotal);
+    $("#finalTotal").text(userTotal);
+
+    if (userTotal == random) {
+        wins();
+    }
+    else if (userTotal > random) {
+        losses();
+    }
+
+})
+$("#green").on("click", function() {
+    userTotal = userTotal +green;
+    console.log("New userTotal = " +userTotal);
+    $("#finalTotal").text(userTotal);
+
+    if (userTotal == random) {
+        wins();
+    }
+    else if (userTotal > random) {
+        losses();
+    }
+
+})
+$("#red").on("click", function() {
+    userTotal = userTotal +red;
+    console.log("New userTotal = " +userTotal);
+    $("#finalTotal").text(userTotal);
+
+    if (userTotal == random) {
+        wins();
+    }
+    else if (userTotal > random) {
+        losses();
+    }
+
+})
+$("#yellow").on("click", function() {
+    userTotal = userTotal +yellow;
+    console.log("New userTotal = " +userTotal);
+    $("#finalTotal").text(userTotal);
+
+    if (userTotal == random) {
+        wins();
+    }
+    else if (userTotal > random) {
+        losses();
+    }
+
+})
