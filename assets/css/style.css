@@ -14,7 +14,7 @@ div {
 .randombox,
 .scoretracker,
 .image,
-.results {
+.userTotal {
     background-color: white;
     border: solid 2px antiquewhite;
 }
@@ -67,7 +67,7 @@ div.intro {
     background-color: lightgrey;
 }
 
-.results {
+.userTotal {
     width: 20%;
     height: 60px;
 }
