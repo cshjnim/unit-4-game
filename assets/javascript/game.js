@@ -45,7 +45,16 @@ $(document).ready(function(){
         reset()
     }
 
- 
+    // adding audio element
+
+    var audioElement = document.createElement("audio");
+    audioElement.setAttribute("src", "assets/audio/audioforclick.mp3");
+
+    $(".image").on("click", function() {
+        audioElement.play();
+      });
+    
+
 // for Jewel's click 
 $("#blue").on("click", function() {
     userTotal = userTotal +num1;
