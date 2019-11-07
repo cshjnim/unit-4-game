@@ -42,7 +42,7 @@ $(document).ready(function(){
         alert("You lose!");
         losses++;
         $("#numberLosses").text(losses);
-        reset()
+        reset();
     }
 
     // adding audio element
