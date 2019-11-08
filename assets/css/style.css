@@ -51,6 +51,10 @@ ol {
     font-size: 15px;
 }
 
+ul li{
+    display: inline;
+}
+
 div.header, 
 div.intro {
     width: 50%;
