@@ -7,41 +7,38 @@
     <!--Adding bootstrap and JQuery-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type= "text/css" href= "assets/css/style.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 
 <body>
-    <div class = "container">
+    <div class="container">
         <!--Header with jumbotron-->
         <div class="jumbotron">
-            <h1 class = "text-center">
-            <strong>CRYSTALSCOLLECTOR!</strong>
-            </h1>
+            <h1>
+            CRYSTALSCOLLECTOR!</h1>
         </div>
 
         <!--second box for instructions-->
         <div class="intro">
-            <h2><b>Introduction</b></h2>
-            <br>
-            <ul>
-                <ol>You will be given a random number at the start of the game.</ol>
-                <ol>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</ol>
-                <ol>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</ol>
-                <ol>The value of each crystal is hidden from you until you click on it.</ol>
-                <ol>Each time when the game starts, the game will change the value of each crystal.</ol>
-            </ul>
+            <h2>Introduction</h2>
+            <ol>
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+                <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+                <li>The value of each crystal is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the value of each crystal.</li>
+            </ol>
         </div>
 
         <!--third box for random number to start-->
-        <div class="randombox">
+        <div class="randomBox">
             <h2>Number:
                 <span id= "randomNumber"></span>
             </h2>
         </div>
 
         <!--fourth box for showing scores-->
-        <div class="scoretracker">
+        <div class="scoreTracker">
             <h2>wins:
                 <span id= "numberWins"></span>
                 </br>
@@ -52,10 +49,12 @@
 
         <!--crystal images-->
         <div class="image">
-            <img src="assets/images/bluecrystal.gif" class= "gemImage" id="blue" alt= "Blue Gem">
-            <img src="assets/images/greencrystal.gif" class= "gemImage" id="green" alt= "Green Gem">
-            <img src="assets/images/redcrystal.gif" class= "gemImage" id="red" alt= "Red Gem">
-            <img src="assets/images/yellowcrystal.gif" class= "gemImage" id="yellow" alt= "Yellow Gem">
+            <ul>
+            <li><img src="assets/images/bluecrystal.gif" class= "gemImage" id="blue" alt= "Blue Gem"></li>
+            <li><img src="assets/images/greencrystal.gif" class= "gemImage" id="green" alt= "Green Gem"></li>
+            <li><img src="assets/images/redcrystal.gif" class= "gemImage" id="red" alt= "Red Gem"></li>
+            <li><img src="assets/images/yellowcrystal.gif" class= "gemImage" id="yellow" alt= "Yellow Gem"></li>
+            </ul>
         </div>
 
         <!--next section for score table-->

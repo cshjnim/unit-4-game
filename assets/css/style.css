@@ -11,8 +11,8 @@ div {
 
 
 .intro,
-.randombox,
-.scoretracker,
+.randomBox,
+.scoreTracker,
 .image,
 .userTotal {
     background-color: white;
@@ -56,7 +56,7 @@ div.intro {
     width: 50%;
 }
 
-.randombox, .scoretracker {
+.randomBox, .scoreTracker {
     float: left;
     width: 15%;
     height: 80px;
